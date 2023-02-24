@@ -7,16 +7,16 @@ public class Person {
     }
 }
 
-class Sepecial{
-    private Sepecial sepecial;
+class Special{
+    private Special sepecial;
     
-    Sepecial(){
+    Special(){
 
     }
 
-    public Sepecial getInstance(){
+    public Special getInstance(){
         if(sepecial == null){
-            return new Sepecial();
+            return new Special();
         }
 
         return sepecial;
